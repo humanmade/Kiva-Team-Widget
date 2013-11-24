@@ -41,7 +41,7 @@ class KT_Kiva_Widget extends WP_Widget {
 				<a href="<?php echo esc_url( $team->link ) ?>" class="kiva-team-stat-value">$<?php echo esc_html( $team->loaned_amount ) ?></a>
 			</li>
 		</ul>
-		<?php print_r($team) ?>
+
 		<?php
 		echo $args['after_widget'];
 	}
