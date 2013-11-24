@@ -1,0 +1,3 @@
+.kiva-team-stats li { float: left; margin-right: 5%;  }
+.kiva-team-stats li .kiva-team-stat-name { font-weight: bold; display: block; }
+.kiva-team-stats li .kiva-team-stat-value { font-size: 300%; line-height: 1 }
