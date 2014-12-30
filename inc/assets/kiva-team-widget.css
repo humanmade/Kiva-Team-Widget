@@ -1,3 +1,71 @@
 .kiva-team-stats li { float: left; margin-right: 5%;  }
-.kiva-team-stats li .kiva-team-stat-name { font-weight: bold; display: block; }
-.kiva-team-stats li .kiva-team-stat-value { font-size: 300%; line-height: 1 }
+.kiva-team-stats li .kiva-team-stat-name {
+	font-weight: bold; display: block;
+}
+.kiva-team-stats li .kiva-team-stat-value {
+	font-size: 300%; line-height: 1;
+}
+.widget_kt_kiva_widget {
+	padding-bottom: 30px;
+}
+#kiva-link {
+	display: inline-block;
+	background-image: url('kiva_121x64.png');
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 121px;
+	text-indent: -9999px;
+	padding-bottom: 18px;
+}
+.kiva-widget-title a {
+	border-bottom: 0;
+}
+.widget_kt_kiva_widget {
+  padding: 1.618em;
+  border-top: 2.618em solid #ede7c5;
+  background-color: #f3efd8;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  color: #817d65;
+  height: 150px;
+}
+.widget_kt_kiva_widget:before,
+.widget_kt_kiva_widget:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -ms-transform: skew(-3deg, -2deg);
+  -webkit-transform: skew(-3deg, -2deg);
+  /* Safari and Chrome */
+
+  -o-transform: skew(-3deg, -2deg);
+  /* Opera */
+
+  -moz-transform: skew(-3deg, -2deg);
+  /* Firefox */
+
+  bottom: 13px;
+  -webkit-box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 50px;
+  left: 3px;
+  max-width: 50%;
+  width: 51%;
+}
+.widget_kt_kiva_widget:after {
+  -ms-transform: skew(3deg, 2deg);
+  /* IE 9 */
+
+  -webkit-transform: skew(3deg, 2deg);
+  /* Safari and Chrome */
+
+  -o-transform: skew(3deg, 2deg);
+  /* Opera */
+
+  -moz-transform: skew(3deg, 2deg);
+  /* Firefox */
+
+  left: auto;
+  right: 3px;
+}

@@ -29,16 +29,16 @@ class KT_Kiva_Widget extends WP_Widget {
 		
 		?>
 
-		<h3 class="widget-title"><?php echo esc_html( $instance['title'] ) ?></h3>
+		<span class="kiva-widget-title"><a href="<?php echo esc_url( $team->link ) ?>" title="Kiva Microfinance" id="kiva-link">Human Made at Kiva</a></span>
 
 		<ul class="kiva-team-stats">
 			<li>
 				<span class="kiva-team-stat-name">Loans</span>
-				<a href="<?php echo esc_url( $team->link ) ?>" class="kiva-team-stat-value"><?php echo esc_html( $team->loan_count ) ?></a>
+				<a href="<?php echo esc_url( $team->link . "/impact" ) ?>" class="kiva-team-stat-value"><?php echo esc_html( $team->loan_count ) ?></a>
 			</li>
 			<li>
 				<span class="kiva-team-stat-name">Amount</span>
-				<a href="<?php echo esc_url( $team->link ) ?>" class="kiva-team-stat-value">$<?php echo esc_html( $team->loaned_amount ) ?></a>
+				<a href="<?php echo esc_url( $team->link . "/impact" ) ?>" class="kiva-team-stat-value">$<?php echo esc_html( $team->loaned_amount ) ?></a>
 			</li>
 		</ul>
 
